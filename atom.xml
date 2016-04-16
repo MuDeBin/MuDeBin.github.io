@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://mdb99.com/"/>
-  <updated>2016-04-16T06:35:17.439Z</updated>
+  <updated>2016-04-16T15:57:12.552Z</updated>
   <id>http://mdb99.com/</id>
   
   <author>
@@ -16,29 +16,95 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="http://mdb99.com/2016/04/16/hello-world/"/>
-    <id>http://mdb99.com/2016/04/16/hello-world/</id>
-    <published>2016-04-16T06:35:17.428Z</published>
-    <updated>2016-04-16T06:35:17.439Z</updated>
+    <title>hexo 使用前git的简单配置</title>
+    <link href="http://mdb99.com/2016/04/15/git%E6%93%8D%E4%BD%9C/"/>
+    <id>http://mdb99.com/2016/04/15/git操作/</id>
+    <published>2016-04-15T10:58:41.000Z</published>
+    <updated>2016-04-16T15:57:12.552Z</updated>
     
-    <content type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;documentation&lt;/a&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;a href=&quot;https://hexo.io/docs/troubleshooting.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;troubleshooting&lt;/a&gt; or you can ask me on &lt;a href=&quot;https://github.com/hexojs/hexo/issues&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;h3 id=&quot;Create-a-new-post&quot;&gt;&lt;a href=&quot;#Create-a-new-post&quot; class=&quot;headerlink&quot; title=&quot;Create a new post&quot;&gt;&lt;/a&gt;Create a new post&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo new &lt;span class=&quot;string&quot;&gt;&quot;My New Post&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/writing.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Writing&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;Run-server&quot;&gt;&lt;a href=&quot;#Run-server&quot; class=&quot;headerlink&quot; title=&quot;Run server&quot;&gt;&lt;/a&gt;Run server&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo server&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/server.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Server&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;Generate-static-files&quot;&gt;&lt;a href=&quot;#Generate-static-files&quot; class=&quot;headerlink&quot; title=&quot;Generate static files&quot;&gt;&lt;/a&gt;Generate static files&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo generate&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/generating.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Generating&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;Deploy-to-remote-sites&quot;&gt;&lt;a href=&quot;#Deploy-to-remote-sites&quot; class=&quot;headerlink&quot; title=&quot;Deploy to remote sites&quot;&gt;&lt;/a&gt;Deploy to remote sites&lt;/h3&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;$ hexo deploy&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;More info: &lt;a href=&quot;https://hexo.io/docs/deployment.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Deployment&lt;/a&gt;&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;strong&gt;hexo创建中git命令简单操作&lt;/strong&gt; &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;    这些命令都在 git bash 完成 &lt;/p&gt;
+&lt;h2 id=&quot;1-装完git后需要配置自己的github仓库的地址&quot;&gt;&lt;a href=&quot;#1-装完git后需要配置自己的github仓库的地址&quot; class=&quot;headerlink&quot; title=&quot;1. 装完git后需要配置自己的github仓库的地址&quot;&gt;&lt;/a&gt;1. 装完git后需要配置自己的github仓库的地址&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;$ git config --global user.name  &amp;quot;这里填写自己github账号的名字&amp;quot; + 回车  
+$ git config --global user.email &amp;quot;这里填写注册时所用的邮箱&amp;quot; + 回车   example : 12345678@qq.com
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;2-检查电脑本地是否存在-SSH-key&quot;&gt;&lt;a href=&quot;#2-检查电脑本地是否存在-SSH-key&quot; class=&quot;headerlink&quot; title=&quot;2. 检查电脑本地是否存在 SSH key&quot;&gt;&lt;/a&gt;2. 检查电脑本地是否存在 SSH key&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;$ ~/.ssh   提示No such file or directory 说明你是第一次使用git   一般还没配置都没有 
+$ ssh-keygen -T rsa -C &amp;quot;自己github的邮箱&amp;quot;  + 回车
+            会提示你是否需要输入一个密码来加密，以保证被提交到github上的命令是自己提交的
+            建议使用密码 
+            在本地 C:\Users\用户名\.ssh 文件夹
+               里面包含私匙  id_rsa
+                      公匙  id_rsa.pub
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;3-提交公匙到github&quot;&gt;&lt;a href=&quot;#3-提交公匙到github&quot; class=&quot;headerlink&quot; title=&quot;3. 提交公匙到github&quot;&gt;&lt;/a&gt;3. 提交公匙到github&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;1. 登录github网站 ---&amp;gt; 右上角点击自己的账号名 ---&amp;gt; setting  ---&amp;gt; SSH and GPG keys  ---&amp;gt; 右上角 New SSH key    
+ 2. 用比如notepad++ 或者sublime text 工具打开 id_rsa.pub  Ctrl+A ---&amp;gt; Ctrl + C     ---&amp;gt; Ctrl +V 填入网页的key 栏 Title自己随便写
+ 3. Add SSH key 
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&quot;4-检查是否匹配&quot;&gt;&lt;a href=&quot;#4-检查是否匹配&quot; class=&quot;headerlink&quot; title=&quot;4. 检查是否匹配&quot;&gt;&lt;/a&gt;4. 检查是否匹配&lt;/h2&gt;&lt;pre&gt;&lt;code&gt;$ ssh -T git@github.com   
+  Warning: Permanently added the RSA host key for IP address &amp;apos;192.30.252.130&amp;apos; to the list of known hosts.
+  Enter passphrase for key &amp;apos;/c/Users/RoyalBloodSky/.ssh/id_rsa&amp;apos;:
+  Hi ***! You&amp;apos;ve successfully authenticated, but GitHub does not provide shell access.
+  如有上述提示，恭喜你匹配成功！
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;你又离成功近了一步！&lt;/strong&gt;&lt;/p&gt;
 </content>
     
     <summary type="html">
     
-      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      &lt;p&gt;&lt;strong&gt;hexo创建中git命令简单操作&lt;/strong&gt;
     
     </summary>
     
+      <category term="git" scheme="http://mdb99.com/categories/git/"/>
+    
+      <category term="hexo" scheme="http://mdb99.com/categories/git/hexo/"/>
+    
+    
+      <category term="学习总结" scheme="http://mdb99.com/tags/%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>重新在另外一台电脑push 了一遍，好累！</title>
+    <link href="http://mdb99.com/2016/04/14/first_day/"/>
+    <id>http://mdb99.com/2016/04/14/first_day/</id>
+    <published>2016-04-14T10:58:41.000Z</published>
+    <updated>2016-04-16T16:38:49.966Z</updated>
+    
+    <content type="html">&lt;p&gt;刚换了一台新机，由于是刚开始接触&lt;strong&gt;hexo&lt;/strong&gt;和&lt;strong&gt;github&lt;/strong&gt;。&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;好多都不懂，只能百度什么的，照着依葫芦画瓢，虽然也弄到了这一步，但是好多的只是了解。并不怎么会玩，看了网上的说可以git clone 已挂在github&lt;br&gt;上的项目，可是clone后，由于本地没有hexo的环境，所以还是不行。是不是自己进入了胡同，没弄明白。又看着各位网上大神挂出的教程，默默在搞一遍，&lt;br&gt;自己其实不想怎么浪费时间在这种重复多遍后就可以完全掌握的简单命令上，我们做事要有重点和目标，简单的事一直在重复，自己就没有时间去提高自己的技能。&lt;br&gt;想着把它就当作练习作业给练练手，同时掌握下使用【markdown】语法。这个真的很强大，简单，易懂。&lt;/p&gt;
+&lt;hr&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;刚换了一台新机，由于是刚开始接触&lt;strong&gt;hexo&lt;/strong&gt;和&lt;strong&gt;github&lt;/strong&gt;。
+    
+    </summary>
+    
+      <category term="感悟" scheme="http://mdb99.com/categories/%E6%84%9F%E6%82%9F/"/>
+    
+    
+      <category term="学习总结" scheme="http://mdb99.com/tags/%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>自己想弄一个属于自己的网站</title>
+    <link href="http://mdb99.com/2016/04/13/%E5%BC%84Blog%E7%9A%84%E6%83%B3%E6%B3%95/"/>
+    <id>http://mdb99.com/2016/04/13/弄Blog的想法/</id>
+    <published>2016-04-13T10:58:41.000Z</published>
+    <updated>2016-04-16T16:18:34.279Z</updated>
+    
+    <content type="html">&lt;p&gt;大二的时候就在阿里云注册一个域名&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;并用里面免费的模板建了自己的第一个网站，里面的可定制性很差，虽然有现成的模板，但改成自己喜欢的样式，&lt;br&gt;工作量很大，而且只能使用一年，需要自己花钱去买服务器和数据库，这当然是自己不能承担的量，所以简单的做了一个首页。一开始的想法是自己把网站建好传在&lt;br&gt;云上的操作系统里。那时自己就把自己以后的目标定了，虽然学了一些java 和ssh架构什么的。自己要学的还很多，比如js，jquery ,jsons。所以也不了了之了。&lt;br&gt;有一天恰好看到hexo + github 。我突然觉得这就是我想要的，自己只需要一个属于自己的域名，不考虑其他，还可以自定义。以前也是看了那个wordpress建站。&lt;br&gt;但自己没学过PHP。哈哈，so,我就加入hexo + github的怀抱。&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;大二的时候就在阿里云注册一个域名
+    
+    </summary>
+    
+      <category term="思考感悟" scheme="http://mdb99.com/categories/%E6%80%9D%E8%80%83%E6%84%9F%E6%82%9F/"/>
+    
+      <category term="学习总结" scheme="http://mdb99.com/categories/%E6%80%9D%E8%80%83%E6%84%9F%E6%82%9F/%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/"/>
+    
+    
+      <category term="学习总结" scheme="http://mdb99.com/tags/%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/"/>
     
   </entry>
   
