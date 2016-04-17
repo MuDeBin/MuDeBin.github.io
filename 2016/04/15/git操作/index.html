@@ -11,7 +11,7 @@
 <meta property="og:url" content="http://mdb99.com/2016/04/15/git操作/index.html">
 <meta property="og:site_name" content="御血苍穹">
 <meta property="og:description" content="hexo创建中git命令简单操作">
-<meta property="og:updated_time" content="2016-04-16T15:57:12.552Z">
+<meta property="og:updated_time" content="2016-04-17T01:38:16.683Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="hexo 使用前git的简单配置">
 <meta name="twitter:description" content="hexo创建中git命令简单操作">
@@ -19,7 +19,7 @@
     <link rel="alternative" href="/atom.xml" title="御血苍穹" type="application/atom+xml">
   
   
-    <link rel="icon" href="img/favicon.png">
+    <link rel="icon" href="/img/favicon.png">
   
   
   <link rel="stylesheet" href="//cdn.bootcss.com/animate.css/3.5.0/animate.min.css">
@@ -55,7 +55,7 @@
     <header id="header" class="inner">
         <a href="/" class="profilepic">
             
-            <img lazy-src="img/head.jpg" class="js-avatar">
+            <img lazy-src="/img/head.jpg" class="js-avatar">
             
         </a>
 
@@ -119,7 +119,7 @@
                         
                             <li><a href="/about">留言打卡</a></li>
                         
-                            <li><a href="/FrontEndGuide">前端导航</a></li>
+                            <li><a href="/FrontEndGuide">Android</a></li>
                         
                         </ul>
                     </nav>
@@ -190,7 +190,7 @@
         <header id="header" class="inner">
             <a href="/" class="profilepic">
                 
-                    <img lazy-src="img/head.jpg" class="js-avatar">
+                    <img lazy-src="/img/head.jpg" class="js-avatar">
                 
             </a>
             <hgroup>
@@ -206,7 +206,7 @@
                 
                     <li><a href="/about">留言打卡</a></li>
                 
-                    <li><a href="/FrontEndGuide">前端导航</a></li>
+                    <li><a href="/FrontEndGuide">Android</a></li>
                 
                 <div class="clearfix"></div>
                 </ul>
@@ -278,19 +278,19 @@
       
           
         <p><strong>hexo创建中git命令简单操作</strong> <a id="more"></a><br>    这些命令都在 git bash 完成 </p>
-<h2 id="1-装完git后需要配置自己的github仓库的地址"><a href="#1-装完git后需要配置自己的github仓库的地址" class="headerlink" title="1. 装完git后需要配置自己的github仓库的地址"></a>1. 装完git后需要配置自己的github仓库的地址</h2><pre><code>$ git config --global user.name  &quot;这里填写自己github账号的名字&quot; + 回车  
+<h1 id="1-装完git后需要配置自己的github仓库的地址"><a href="#1-装完git后需要配置自己的github仓库的地址" class="headerlink" title="1. 装完git后需要配置自己的github仓库的地址"></a>1. 装完git后需要配置自己的github仓库的地址</h1><pre><code>$ git config --global user.name  &quot;这里填写自己github账号的名字&quot; + 回车  
 $ git config --global user.email &quot;这里填写注册时所用的邮箱&quot; + 回车   example : 12345678@qq.com
-</code></pre><h2 id="2-检查电脑本地是否存在-SSH-key"><a href="#2-检查电脑本地是否存在-SSH-key" class="headerlink" title="2. 检查电脑本地是否存在 SSH key"></a>2. 检查电脑本地是否存在 SSH key</h2><pre><code>$ ~/.ssh   提示No such file or directory 说明你是第一次使用git   一般还没配置都没有 
+</code></pre><h1 id="2-检查电脑本地是否存在-SSH-key"><a href="#2-检查电脑本地是否存在-SSH-key" class="headerlink" title="2. 检查电脑本地是否存在 SSH key"></a>2. 检查电脑本地是否存在 SSH key</h1><pre><code>$ ~/.ssh   提示No such file or directory 说明你是第一次使用git   一般还没配置都没有 
 $ ssh-keygen -T rsa -C &quot;自己github的邮箱&quot;  + 回车
             会提示你是否需要输入一个密码来加密，以保证被提交到github上的命令是自己提交的
             建议使用密码 
             在本地 C:\Users\用户名\.ssh 文件夹
                里面包含私匙  id_rsa
                       公匙  id_rsa.pub
-</code></pre><h2 id="3-提交公匙到github"><a href="#3-提交公匙到github" class="headerlink" title="3. 提交公匙到github"></a>3. 提交公匙到github</h2><pre><code>1. 登录github网站 ---&gt; 右上角点击自己的账号名 ---&gt; setting  ---&gt; SSH and GPG keys  ---&gt; 右上角 New SSH key    
- 2. 用比如notepad++ 或者sublime text 工具打开 id_rsa.pub  Ctrl+A ---&gt; Ctrl + C     ---&gt; Ctrl +V 填入网页的key 栏 Title自己随便写
- 3. Add SSH key 
-</code></pre><h2 id="4-检查是否匹配"><a href="#4-检查是否匹配" class="headerlink" title="4. 检查是否匹配"></a>4. 检查是否匹配</h2><pre><code>$ ssh -T git@github.com   
+</code></pre><h1 id="3-提交公匙到github"><a href="#3-提交公匙到github" class="headerlink" title="3. 提交公匙到github"></a>3. 提交公匙到github</h1><pre><code>1. 登录github网站 ---&gt; 右上角点击自己的账号名 ---&gt; setting  ---&gt; SSH and GPG keys  ---&gt; 右上角 New SSH key    
+2. 用比如notepad++ 或者sublime text 工具打开 id_rsa.pub  Ctrl+A ---&gt; Ctrl + C     ---&gt; Ctrl +V 填入网页的key 栏 Title自己随便写
+3. Add SSH key 
+</code></pre><h1 id="4-检查是否匹配"><a href="#4-检查是否匹配" class="headerlink" title="4. 检查是否匹配"></a>4. 检查是否匹配</h1><pre><code>$ ssh -T git@github.com   
   Warning: Permanently added the RSA host key for IP address &apos;192.30.252.130&apos; to the list of known hosts.
   Enter passphrase for key &apos;/c/Users/RoyalBloodSky/.ssh/id_rsa&apos;:
   Hi ***! You&apos;ve successfully authenticated, but GitHub does not provide shell access.
@@ -307,7 +307,7 @@ $ ssh-keygen -T rsa -C &quot;自己github的邮箱&quot;  + 回车
         <p><span>本文标题:</span><a href="/2016/04/15/git操作/">hexo 使用前git的简单配置</a></p>
         <p><span>文章作者:</span><a href="/" title="访问 MuDeBin 的个人博客">MuDeBin</a></p>
         <p><span>发布时间:</span>2016年04月15日 - 18时58分</p>
-        <p><span>最后更新:</span>2016年04月16日 - 23时57分</p>
+        <p><span>最后更新:</span>2016年04月17日 - 09时38分</p>
         <p>
             <span>原始链接:</span><a class="post-url" href="/2016/04/15/git操作/" title="hexo 使用前git的简单配置">http://mdb99.com/2016/04/15/git操作/</a>
             <span class="copy-path" data-clipboard-text="原文: http://mdb99.com/2016/04/15/git操作/　　作者: MuDeBin" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
@@ -336,7 +336,7 @@ $ ssh-keygen -T rsa -C &quot;自己github的邮箱&quot;  + 回车
 
     <div id="toc" class="toc-article">
     <strong class="toc-title">文章目录</strong>
-    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-装完git后需要配置自己的github仓库的地址"><span class="toc-number">1.</span> <span class="toc-text">1. 装完git后需要配置自己的github仓库的地址</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-检查电脑本地是否存在-SSH-key"><span class="toc-number">2.</span> <span class="toc-text">2. 检查电脑本地是否存在 SSH key</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-提交公匙到github"><span class="toc-number">3.</span> <span class="toc-text">3. 提交公匙到github</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#4-检查是否匹配"><span class="toc-number">4.</span> <span class="toc-text">4. 检查是否匹配</span></a></li></ol>
+    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#1-装完git后需要配置自己的github仓库的地址"><span class="toc-number">1.</span> <span class="toc-text">1. 装完git后需要配置自己的github仓库的地址</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#2-检查电脑本地是否存在-SSH-key"><span class="toc-number">2.</span> <span class="toc-text">2. 检查电脑本地是否存在 SSH key</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#3-提交公匙到github"><span class="toc-number">3.</span> <span class="toc-text">3. 提交公匙到github</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#4-检查是否匹配"><span class="toc-number">4.</span> <span class="toc-text">4. 检查是否匹配</span></a></li></ol>
 </div>
 <style>
     .left-col .switch-btn {
