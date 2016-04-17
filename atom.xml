@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>御血苍穹</title>
-  
+  <subtitle>不怕千万人阻挡，只怕自己投降！</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://mdb99.com/"/>
-  <updated>2016-04-17T01:38:16.683Z</updated>
+  <updated>2016-04-17T08:01:38.614Z</updated>
   <id>http://mdb99.com/</id>
   
   <author>
@@ -16,26 +16,103 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>windows系统安装</title>
+    <link href="http://mdb99.com/2016/04/16/%E5%AE%89%E8%A3%85windows%E7%B3%BB%E7%BB%9F%E6%95%99%E7%A8%8B/"/>
+    <id>http://mdb99.com/2016/04/16/安装windows系统教程/</id>
+    <published>2016-04-16T14:58:41.000Z</published>
+    <updated>2016-04-17T08:01:38.614Z</updated>
+    
+    <content type="html">&lt;p&gt;&lt;strong&gt;windows 7/10 系统USB安装教程，抱歉没图，以后改进&lt;/strong&gt; &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;题记&quot;&gt;&lt;a href=&quot;#题记&quot; class=&quot;headerlink&quot; title=&quot;题记&quot;&gt;&lt;/a&gt;题记&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;现在好多人都对电脑很熟悉了，但是时间用久了或者出现系统故障了，就会面临先要重装系统的想法&lt;/strong&gt;&lt;/p&gt;
+&lt;h1 id=&quot;排除自己是那种不想学点新东西的人&quot;&gt;&lt;a href=&quot;#排除自己是那种不想学点新东西的人&quot; class=&quot;headerlink&quot; title=&quot;排除自己是那种不想学点新东西的人&quot;&gt;&lt;/a&gt;排除自己是那种不想学点新东西的人&lt;/h1&gt;&lt;p&gt;装系统还的自己亲自动手？？你 out 了，谁的电脑不装个360、电脑管家神的，第一可以杀毒，清垃圾啥的。其实我们的电脑小白用户完全不用装这些，占用大量资源不说，拖慢系统，造成卡顿，全家桶的情况时常发生。我也不是在这说这个，跳过。哈哈，其实这些软件里都有一键重装系统。我只了解过，不怎么熟，本人从来不用。&lt;/p&gt;
+&lt;h1 id=&quot;先去下载纯系统，不要使用ghost的系统&quot;&gt;&lt;a href=&quot;#先去下载纯系统，不要使用ghost的系统&quot; class=&quot;headerlink&quot; title=&quot;先去下载纯系统，不要使用ghost的系统&quot;&gt;&lt;/a&gt;先去下载纯系统，不要使用ghost的系统&lt;/h1&gt;&lt;p&gt;推荐一个网站，微软的正版软件都在里面，我比较喜欢。&lt;br&gt;  百度直搜 ：&lt;a href=&quot;http://www.itellyou.cn/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;msdn&lt;/a&gt;  选择左侧菜单 操作系统 下载自己想要的系统 &lt;/p&gt;
+&lt;h1 id=&quot;准备一个不小于8G的U盘&quot;&gt;&lt;a href=&quot;#准备一个不小于8G的U盘&quot; class=&quot;headerlink&quot; title=&quot;准备一个不小于8G的U盘&quot;&gt;&lt;/a&gt;准备一个不小于8G的U盘&lt;/h1&gt;&lt;p&gt;这里我也是用喜欢那个PE环境来装&lt;br&gt;网上搜U盘启动盘的制作，一堆！&lt;/p&gt;
+&lt;h1 id=&quot;准备&quot;&gt;&lt;a href=&quot;#准备&quot; class=&quot;headerlink&quot; title=&quot;准备&quot;&gt;&lt;/a&gt;准备&lt;/h1&gt;&lt;h2 id=&quot;把下好的系统拷在刚弄好的启动盘里。&quot;&gt;&lt;a href=&quot;#把下好的系统拷在刚弄好的启动盘里。&quot; class=&quot;headerlink&quot; title=&quot;把下好的系统拷在刚弄好的启动盘里。&quot;&gt;&lt;/a&gt;把下好的系统拷在刚弄好的启动盘里。&lt;/h2&gt;&lt;h2 id=&quot;重新启动电脑，看自己的电脑品牌，不造的百度查，选择F2-F12-ESC等这些快速进入开机启动项选择-，选择U盘进入PE环境-。&quot;&gt;&lt;a href=&quot;#重新启动电脑，看自己的电脑品牌，不造的百度查，选择F2-F12-ESC等这些快速进入开机启动项选择-，选择U盘进入PE环境-。&quot; class=&quot;headerlink&quot; title=&quot;重新启动电脑，看自己的电脑品牌，不造的百度查，选择F2 / F12 / ESC等这些快速进入开机启动项选择 ，选择U盘进入PE环境 。&quot;&gt;&lt;/a&gt;重新启动电脑，看自己的电脑品牌，不造的百度查，选择F2 / F12 / ESC等这些快速进入开机启动项选择 ，选择U盘进入PE环境 。&lt;/h2&gt;&lt;h2 id=&quot;bios设置启动开机默认U盘，进入Bios方法（看品牌查进入bios的方式），选择-U盘为第一启动项。&quot;&gt;&lt;a href=&quot;#bios设置启动开机默认U盘，进入Bios方法（看品牌查进入bios的方式），选择-U盘为第一启动项。&quot; class=&quot;headerlink&quot; title=&quot;bios设置启动开机默认U盘，进入Bios方法（看品牌查进入bios的方式），选择 U盘为第一启动项。&quot;&gt;&lt;/a&gt;bios设置启动开机默认U盘，进入Bios方法（看品牌查进入bios的方式），选择 U盘为第一启动项。&lt;/h2&gt;&lt;h1 id=&quot;其他的PE里怎么安装，在你制作启动盘的软件里就有教程，巨细。我也不在此啰嗦，&quot;&gt;&lt;a href=&quot;#其他的PE里怎么安装，在你制作启动盘的软件里就有教程，巨细。我也不在此啰嗦，&quot; class=&quot;headerlink&quot; title=&quot;其他的PE里怎么安装，在你制作启动盘的软件里就有教程，巨细。我也不在此啰嗦，&quot;&gt;&lt;/a&gt;其他的PE里怎么安装，在你制作启动盘的软件里就有教程，巨细。我也不在此啰嗦，&lt;/h1&gt;&lt;h1 id=&quot;不用PE环境安装&quot;&gt;&lt;a href=&quot;#不用PE环境安装&quot; class=&quot;headerlink&quot; title=&quot;不用PE环境安装&quot;&gt;&lt;/a&gt;不用PE环境安装&lt;/h1&gt;&lt;h2 id=&quot;磁盘分区是MBR&quot;&gt;&lt;a href=&quot;#磁盘分区是MBR&quot; class=&quot;headerlink&quot; title=&quot;磁盘分区是MBR&quot;&gt;&lt;/a&gt;磁盘分区是MBR&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;找一个不含资料的空U盘，把ISO格式的系统解压到U盘&lt;/li&gt;
+&lt;li&gt;开机选择U盘启动，直接进入安装界面。&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;windows 7/10 系统USB安装教程，抱歉没图，以后改进&lt;/strong&gt;
+    
+    </summary>
+    
+      <category term="windows" scheme="http://mdb99.com/categories/windows/"/>
+    
+      <category term="学习总结" scheme="http://mdb99.com/categories/windows/%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/"/>
+    
+      <category term="win 7/10" scheme="http://mdb99.com/categories/windows/%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/win-7-10/"/>
+    
+    
+      <category term="学习总结" scheme="http://mdb99.com/tags/%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hexo主题的安装和简单配置</title>
+    <link href="http://mdb99.com/2016/04/16/%E5%AE%89%E8%A3%85hexo/"/>
+    <id>http://mdb99.com/2016/04/16/安装hexo/</id>
+    <published>2016-04-16T10:58:41.000Z</published>
+    <updated>2016-04-17T07:22:58.882Z</updated>
+    
+    <content type="html">&lt;p&gt;&lt;strong&gt;hexo创建和部署到github上&lt;/strong&gt; &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;后记&quot;&gt;&lt;a href=&quot;#后记&quot; class=&quot;headerlink&quot; title=&quot;后记&quot;&gt;&lt;/a&gt;后记&lt;/h1&gt;&lt;p&gt;&lt;strong&gt; 默认是自己的github上在你的账户下存在一个仓库 格式如 &lt;/strong&gt;&lt;br&gt;      &lt;strong&gt; ABC(github的名字)/ABC.github.io  ABC.github.io 格式的仓库默认只允许建立一个&lt;/strong&gt;&lt;/p&gt;
+&lt;h1 id=&quot;安装hexo&quot;&gt;&lt;a href=&quot;#安装hexo&quot; class=&quot;headerlink&quot; title=&quot;安装hexo&quot;&gt;&lt;/a&gt;安装hexo&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;$ npm install -g hexo
+&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&quot;hexo文件夹的创建&quot;&gt;&lt;a href=&quot;#hexo文件夹的创建&quot; class=&quot;headerlink&quot; title=&quot;hexo文件夹的创建&quot;&gt;&lt;/a&gt;hexo文件夹的创建&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;在你想放置hexo主题的磁盘目录下建立hexo文件夹 （D: \HEXO）
+在 该文件夹目录下右键 ---&amp;gt; git bash here
+$ hexo init
+&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&quot;安装依赖包&quot;&gt;&lt;a href=&quot;#安装依赖包&quot; class=&quot;headerlink&quot; title=&quot;安装依赖包&quot;&gt;&lt;/a&gt;安装依赖包&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;$ npm install
+&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&quot;本地部署&quot;&gt;&lt;a href=&quot;#本地部署&quot; class=&quot;headerlink&quot; title=&quot;本地部署&quot;&gt;&lt;/a&gt;本地部署&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;$ hexo g     g = generate  (生成)
+$ hexo s     s = server   (启动本地服务)
+&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&quot;在本地预览hexo主题的博客&quot;&gt;&lt;a href=&quot;#在本地预览hexo主题的博客&quot; class=&quot;headerlink&quot; title=&quot;在本地预览hexo主题的博客&quot;&gt;&lt;/a&gt;在本地预览hexo主题的博客&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;打开浏览器，在浏览器地址栏输入：
+                localhost:4000  &amp;amp; http://127.0.0.1:4000  
+&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&quot;修改配置-config-yml-文件位置：hexo文件夹下&quot;&gt;&lt;a href=&quot;#修改配置-config-yml-文件位置：hexo文件夹下&quot; class=&quot;headerlink&quot; title=&quot;修改配置 _config.yml  文件位置：hexo文件夹下&quot;&gt;&lt;/a&gt;修改配置 _config.yml  文件位置：hexo文件夹下&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;找到deploy：
+  deploy:
+    type: git
+    repository: https://github.com/youname/youname.github.io.git
+    branch: master
+&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&quot;安装一个推送插件&quot;&gt;&lt;a href=&quot;#安装一个推送插件&quot; class=&quot;headerlink&quot; title=&quot;安装一个推送插件&quot;&gt;&lt;/a&gt;安装一个推送插件&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;$ npm install hexo-deployer-git --save
+&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&quot;部署到github&quot;&gt;&lt;a href=&quot;#部署到github&quot; class=&quot;headerlink&quot; title=&quot;部署到github&quot;&gt;&lt;/a&gt;部署到github&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;$ hexo d     d = deploy
+&lt;/code&gt;&lt;/pre&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;hexo创建和部署到github上&lt;/strong&gt;
+    
+    </summary>
+    
+      <category term="学习总结" scheme="http://mdb99.com/categories/%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/"/>
+    
+      <category term="hexo" scheme="http://mdb99.com/categories/%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/hexo/"/>
+    
+    
+      <category term="知识管理" scheme="http://mdb99.com/tags/%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
     <title>hexo 使用前git的简单配置</title>
     <link href="http://mdb99.com/2016/04/15/git%E6%93%8D%E4%BD%9C/"/>
     <id>http://mdb99.com/2016/04/15/git操作/</id>
     <published>2016-04-15T10:58:41.000Z</published>
-    <updated>2016-04-17T01:38:16.683Z</updated>
+    <updated>2016-04-17T07:02:21.087Z</updated>
     
     <content type="html">&lt;p&gt;&lt;strong&gt;hexo创建中git命令简单操作&lt;/strong&gt; &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;&lt;br&gt;    这些命令都在 git bash 完成 &lt;/p&gt;
-&lt;h1 id=&quot;1-装完git后需要配置自己的github仓库的地址&quot;&gt;&lt;a href=&quot;#1-装完git后需要配置自己的github仓库的地址&quot; class=&quot;headerlink&quot; title=&quot;1. 装完git后需要配置自己的github仓库的地址&quot;&gt;&lt;/a&gt;1. 装完git后需要配置自己的github仓库的地址&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;$ git config --global user.name  &amp;quot;这里填写自己github账号的名字&amp;quot; + 回车  
+&lt;h1 id=&quot;装完git后需要配置自己的github仓库的地址&quot;&gt;&lt;a href=&quot;#装完git后需要配置自己的github仓库的地址&quot; class=&quot;headerlink&quot; title=&quot;装完git后需要配置自己的github仓库的地址&quot;&gt;&lt;/a&gt;装完git后需要配置自己的github仓库的地址&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;$ git config --global user.name  &amp;quot;这里填写自己github账号的名字&amp;quot; + 回车  
 $ git config --global user.email &amp;quot;这里填写注册时所用的邮箱&amp;quot; + 回车   example : 12345678@qq.com
-&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&quot;2-检查电脑本地是否存在-SSH-key&quot;&gt;&lt;a href=&quot;#2-检查电脑本地是否存在-SSH-key&quot; class=&quot;headerlink&quot; title=&quot;2. 检查电脑本地是否存在 SSH key&quot;&gt;&lt;/a&gt;2. 检查电脑本地是否存在 SSH key&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;$ ~/.ssh   提示No such file or directory 说明你是第一次使用git   一般还没配置都没有 
+&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&quot;检查电脑本地是否存在-SSH-key&quot;&gt;&lt;a href=&quot;#检查电脑本地是否存在-SSH-key&quot; class=&quot;headerlink&quot; title=&quot;检查电脑本地是否存在 SSH key&quot;&gt;&lt;/a&gt;检查电脑本地是否存在 SSH key&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;$ ~/.ssh   提示No such file or directory 说明你是第一次使用git   一般还没配置都没有 
 $ ssh-keygen -T rsa -C &amp;quot;自己github的邮箱&amp;quot;  + 回车
             会提示你是否需要输入一个密码来加密，以保证被提交到github上的命令是自己提交的
             建议使用密码 
             在本地 C:\Users\用户名\.ssh 文件夹
                里面包含私匙  id_rsa
                       公匙  id_rsa.pub
-&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&quot;3-提交公匙到github&quot;&gt;&lt;a href=&quot;#3-提交公匙到github&quot; class=&quot;headerlink&quot; title=&quot;3. 提交公匙到github&quot;&gt;&lt;/a&gt;3. 提交公匙到github&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;1. 登录github网站 ---&amp;gt; 右上角点击自己的账号名 ---&amp;gt; setting  ---&amp;gt; SSH and GPG keys  ---&amp;gt; 右上角 New SSH key    
+&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&quot;提交公匙到github&quot;&gt;&lt;a href=&quot;#提交公匙到github&quot; class=&quot;headerlink&quot; title=&quot;提交公匙到github&quot;&gt;&lt;/a&gt;提交公匙到github&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;1. 登录github网站 ---&amp;gt; 右上角点击自己的账号名 ---&amp;gt; setting  ---&amp;gt; SSH and   GPG keys  ---&amp;gt; 右上角 New SSH key    
 2. 用比如notepad++ 或者sublime text 工具打开 id_rsa.pub  Ctrl+A ---&amp;gt; Ctrl + C     ---&amp;gt; Ctrl +V 填入网页的key 栏 Title自己随便写
 3. Add SSH key 
-&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&quot;4-检查是否匹配&quot;&gt;&lt;a href=&quot;#4-检查是否匹配&quot; class=&quot;headerlink&quot; title=&quot;4. 检查是否匹配&quot;&gt;&lt;/a&gt;4. 检查是否匹配&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;$ ssh -T git@github.com   
+&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&quot;检查是否匹配&quot;&gt;&lt;a href=&quot;#检查是否匹配&quot; class=&quot;headerlink&quot; title=&quot;检查是否匹配&quot;&gt;&lt;/a&gt;检查是否匹配&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;$ ssh -T git@github.com   
   Warning: Permanently added the RSA host key for IP address &amp;apos;192.30.252.130&amp;apos; to the list of known hosts.
   Enter passphrase for key &amp;apos;/c/Users/RoyalBloodSky/.ssh/id_rsa&amp;apos;:
   Hi ***! You&amp;apos;ve successfully authenticated, but GitHub does not provide shell access.
@@ -84,11 +161,11 @@ $ ssh-keygen -T rsa -C &amp;quot;自己github的邮箱&amp;quot;  + 回车
   </entry>
   
   <entry>
-    <title>自己想弄一个属于自己的网站</title>
-    <link href="http://mdb99.com/2016/04/13/%E5%BC%84Blog%E7%9A%84%E6%83%B3%E6%B3%95/"/>
-    <id>http://mdb99.com/2016/04/13/弄Blog的想法/</id>
+    <title>搭建一个属于自己的网站，虽然自己可能不搞前端</title>
+    <link href="http://mdb99.com/2016/04/13/%E6%90%AD%E5%BB%BABlog%E7%9A%84%E6%83%B3%E6%B3%95/"/>
+    <id>http://mdb99.com/2016/04/13/搭建Blog的想法/</id>
     <published>2016-04-13T10:58:41.000Z</published>
-    <updated>2016-04-16T16:18:34.279Z</updated>
+    <updated>2016-04-17T07:24:53.950Z</updated>
     
     <content type="html">&lt;p&gt;大二的时候就在阿里云注册一个域名&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;并用里面免费的模板建了自己的第一个网站，里面的可定制性很差，虽然有现成的模板，但改成自己喜欢的样式，&lt;br&gt;工作量很大，而且只能使用一年，需要自己花钱去买服务器和数据库，这当然是自己不能承担的量，所以简单的做了一个首页。一开始的想法是自己把网站建好传在&lt;br&gt;云上的操作系统里。那时自己就把自己以后的目标定了，虽然学了一些java 和ssh架构什么的。自己要学的还很多，比如js，jquery ,jsons。所以也不了了之了。&lt;br&gt;有一天恰好看到hexo + github 。我突然觉得这就是我想要的，自己只需要一个属于自己的域名，不考虑其他，还可以自定义。以前也是看了那个wordpress建站。&lt;br&gt;但自己没学过PHP。哈哈，so,我就加入hexo + github的怀抱。&lt;/p&gt;
 </content>
